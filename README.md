@@ -44,6 +44,18 @@ A **MERN Stack** based web application that tracks competitive programming conte
 
 ---
 
+## 🌐 Data Source APIs
+
+| Platform   | API Endpoint                                                                                     | Notes                                                                                             |
+|------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| Codeforces | `https://codeforces.com/api/contest.list`                                                         | Provides complete list of contests.                                                              |
+| CodeChef   | `https://www.codechef.com/api/list/contests/all?sort_by=START&sorting_order=asc&offset=0&mode=all`| Requires custom parsing to separate upcoming and past contests.                                  |
+| LeetCode   | `https://leetcode.com/graphql/`                                                                   | No direct API; **GraphQL query** is used to fetch contest data. Requires special handling.        |
+
+> The fetched data from all platforms is normalized into a **uniform schema** to maintain consistency across the frontend.
+
+---
+
 ## 📥 API Documentation
 
 ### Base URL: `/api`
@@ -77,13 +89,16 @@ A **MERN Stack** based web application that tracks competitive programming conte
 
 ---
 
-## 📺 YouTube Playlists for Solutions:
+## 📺 Solution Playlists (YouTube Links)
 
-- **LeetCode PCDs**
-- **Codeforces PCDs**
-- **CodeChef PCDs**
+- **LeetCode PCDs**  
+  🔗 [LeetCode Solutions Playlist](https://www.youtube.com/playlist?list=PLcXpkI9A-RZI6FhydNz3JBt_-p_i25Cbr)
 
-(Admins can upload links for specific contests manually via a form.)
+- **Codeforces PCDs**  
+  🔗 [Codeforces Solutions Playlist](https://www.youtube.com/playlist?list=PLcXpkI9A-RZLUfBSNp-YQBCOezZKbDSgB)
+
+- **CodeChef PCDs**  
+  🔗 [CodeChef Solutions Playlist](https://www.youtube.com/playlist?list=PLcXpkI9A-RZIZ6lsE0KCcLWeKNoG45fYr)
 
 ---
 
@@ -140,7 +155,3 @@ JWT_SECRET=your_secret_key
 - Auto-sync YouTube video solutions
 - Email alerts for bookmarked contests
 - Admin dashboard UI enhancements
-
----
-
-**Shall I save and format this as a `README.md` file and send you a download link?**
