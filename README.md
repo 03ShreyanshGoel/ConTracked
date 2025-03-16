@@ -1,7 +1,3 @@
-Here’s a complete, polished `README.md` documentation for your project, exactly matching the requirements and clearly mentioning your features, APIs, stack, and the links (GitHub + video). I've formatted it cleanly to look professional and to-the-point.
-
----
-
 # 🚀 CP Contest Tracker
 
 A **MERN Stack** based web application that tracks competitive programming contests across **Codeforces**, **CodeChef**, and **LeetCode**, allowing users to bookmark contests, filter by platform, and view solutions via YouTube links.
