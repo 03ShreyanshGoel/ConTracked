@@ -1,0 +1,10 @@
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGOUT = "LOGOUT";
+export const FETCH_CONTESTS = "FETCH_CONTESTS";
+export const TOGGLE_BOOKMARK = "TOGGLE_BOOKMARK";
+export const UPLOAD_SOLUTION = "UPLOAD_SOLUTION";
+export const FETCH_BOOKMARKS = "FETCH_BOOKMARKS";
+export const SET_ALERT = "SET_ALERT";
+export const REMOVE_ALERT = "REMOVE_ALERT";
+export const GET_BOOKMARKS = "GET_BOOKMARKS";
+export const BOOKMARK_ERROR = "BOOKMARK_ERROR";
