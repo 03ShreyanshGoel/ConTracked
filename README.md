@@ -104,13 +104,13 @@ A **MERN Stack** based web application that tracks competitive programming conte
 
 ## 📹 Demo Video
 
-[🎥 **Click to Watch Video Demo**](https://drive.google.com/drive/folders/13ah1W_p9FoZMxyBt4J7xVhn7LE4is6je?usp=sharing)
+🎥 [**Click to Watch Video Demo**](https://drive.google.com/drive/folders/13ah1W_p9FoZMxyBt4J7xVhn7LE4is6je?usp=sharing)
 
 ---
 
 ## 📂 GitHub Repository
 
-[🔗 **GitHub Repo - CP Contest Tracker**](https://github.com/03ShreyanshGoel/ConTracked)
+🔗 [**GitHub Repo - CP Contest Tracker**](https://github.com/03ShreyanshGoel/ConTracked)
 
 ---
 
